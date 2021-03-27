@@ -1,0 +1,131 @@
+<style>
+/* Font Styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video 
+{
+font-family: 'Open Sans', "Arial", sans-serif !important;
+}
+/* Calendar Icon - Don't Change or Remove */
+i.fa {
+font: normal normal normal 14px/1 FontAwesome !important;
+}
+/* Font Styles Ends */
+
+/* Hotel Name Font */
+.page-header-inner .hotel_name {
+color: #fff;
+font-family: 'Verdana',sans-serif;
+display: none;
+}
+
+/* Remove Address */ 
+.map_info {display:none;} 
+
+th.children.custom-children {
+visibility: hidden !important;
+display: none;
+}
+td.children {
+visibility: hidden !important;
+display: none;
+}
+.av-children {
+visibility: hidden !important;
+display: none;
+}
+.av-room-details {
+margin-top: -20px;
+}
+/* Card Design Styles */
+
+.bigger {
+display: none; 
+}
+.md-radio {
+display: none;
+}
+.av_gallery {
+margin-bottom: 0px;
+}
+.featured_photo {
+border-radius: 10px 0 0 10px; 
+}
+
+.av_roomtype {
+/*  background-color: #Fbfbf9; 
+border: 1px solid #e7decc; */
+border-radius: 12px;
+padding: 0px;
+margin-bottom: 20px;
+}
+.av-left-rooms {
+display: none;
+}
+.av-rates  {
+padding: 10px 0px;
+}
+.av-rates .price-from {
+visibility: hidden !important;
+display: none;
+}
+.av-name {
+    font-size: 21px;
+    margin-top: 30px;
+    font-weight: 200;
+}
+/* Change the text "Select Accommodation" to any desired text */
+.details-switcher.show-details {
+margin-top: 0px;
+}
+.details-switcher.hide-details {
+margin-top: 0px;
+}
+.green.btn {
+border-radius: 0 0 10px 0;
+border: 1px solid #6f8a66;
+box-shadow: none;
+}
+
+.btn.green.btn-block.select-accommodation-btn {
+  font-size: 0;
+}
+
+.btn.green.btn-block.select-accommodation-btn:after {
+  content: "Book Now";
+  font-size: 12px;
+}
+/* Change the text "See Details" to any desired text */
+.details-switcher {
+  font-size: 0;
+}
+.details-switcher:after {
+  content: "View Details";
+  font-size: 12px;
+}
+/* .details-switcher.show-details .fa-arrow-circle-o-down {
+display: none;
+}
+.details-switcher.hide-details .fa-arrow-circle-o-up {
+display: none;
+} */
+</style>
+<style>
+.av-room-options .av-adults .type_of_room {
+font-size: 0 !important;
+}
+.av-room-options .av-adults .type_of_room:after {
+content: "Guests";
+text-align: center;
+font-size: 10px;
+} 
+
+/* Secondary Card */
+#currency-selector li, #lang-selector li, .amenities_tab ul li {
+padding-bottom: 6px;
+}
+.av-per-person-price {
+border-radius: 12px 12px 0px 0px;
+}
+.av-room-features .tab-content  {
+margin-bottom: 20px;
+}
+</style>
