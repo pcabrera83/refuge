@@ -101,13 +101,13 @@ margin-top: 0px;
 margin-top: 0px;
 }
 .green.btn {
-border-radius: 0 0 10px 0;
+border-radius: 10px 0 10px 0;
 background-color: #333;
 border: 1px solid #333;
 box-shadow: none;
 }
 .green.btn:hover {
-border-radius: 0 0 10px 0;
+border-radius: 10px 0 10px 0;
 background-color: #000;
 border: 1px solid #000;
 box-shadow: none;
@@ -155,5 +155,65 @@ border-radius: 12px 12px 0px 0px;
 }
 .av-room-features .tab-content  {
 margin-bottom: 20px;
+}
+
+.tabbable-line>.nav-tabs>li.active {
+border-bottom: #0A3759;
+position: relative;
+}
+
+tabbable-line>.nav-tabs>li.open, .tabbable-line>.nav-tabs>li:hover {
+border-bottom: 4px solid #7990A0;
+}
+
+
+/*  Bring Back Icons */ 
+.ui-datepicker .ui-datepicker-prev span.ui-icon, .ui-datepicker .ui-datepicker-next span.ui-icon {
+    font-family: FontAwesome !important;
+}
+/* Hide Top Image */
+.hotel_views {
+display: none;
+}
+
+
+/* Increase the size of add-ons photos */
+@media screen and (min-width: 992px) {
+.about .col-md-4 {
+  min-width: auto;
+  width: 40%;
+}
+.about .col-md-8 {
+  width: 60%;
+}
+.about .img {
+  width: 100%;
+  height: auto;
+  padding-top: 50%;
+}
+.room_services .img div {
+  top: 0;
+  position: absolute;
+}
+.photo_content .small {
+    height: 77px;
+    width: 120px;
+}
+}
+@media screen and (max-width: 767px) {
+.av-info {
+}
+.av-name-info {
+padding: 0px 0px 0px 10px !important;
+}
+ .av-occupancy {
+padding: 0px 0px 0px 10px;
+}
+.av-rates {
+padding: 0px 0px 0px 10px;
+}
+.show-details {
+padding: 0px 0px 0px 10px;
+}
 }
 </style>
